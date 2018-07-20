@@ -22,5 +22,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+  <repository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>http://54.172.244.241:8081/nexus-latest/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>http://54.172.244.241:8081/nexus-latest/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
   
 </project>
